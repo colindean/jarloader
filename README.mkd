@@ -1,0 +1,32 @@
+JarLoader
+=========
+
+By colindean
+
+Introduction
+------------
+JarLoader is a very simple Java Jar loading class I constructed referencing
+several examples and customizing them for my needs. This type of thing seems
+only found on forums, so I thought I'd throw it up on Github so it'd be easier
+for others to find.
+
+This may also work for loading classes, but I've not tried that.
+
+Licence
+-------
+JarLoader is in the public domain. See LICENSE for more information.
+
+Usage
+-----
+JarLoader is meant to be a static class.
+
+    com.github.colindean.java.JarLoader.loadJar(String path);
+
+N.b. that you make need to create the necessary directory structure. I leave 
+that as an exercise for the reader.
+
+Keywords
+--------
+* Load external jar
+* Load external class
+* Change java classpath
